@@ -1,10 +1,10 @@
 import "./App.css";
-import GoogleSigin from "./GoogleSignIn/GoogleSigin";
+import GoogleSign from "./Firebase/GoogleSign";
 
 function App() {
   return (
     <div className="App">
-      <GoogleSigin></GoogleSigin>
+      <GoogleSign></GoogleSign>
     </div>
   );
 }
